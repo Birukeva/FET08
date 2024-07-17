@@ -1,0 +1,19 @@
+# ===== CONFIGURING GIT =======
+git config --global user.name "username"
+git config --global user.email "email"
+git config user.name
+git config user.email
+
+===== Initializze Git Repository ======
+git init
+
+===== Git Three stage Architecture =====
+
+1. Check the status of our files
+git status
+
+2. Add the files in to the staging area
+git add .
+
+3. Create a commit
+git commit -m "This is the description."
