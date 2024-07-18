@@ -17,3 +17,17 @@ git add .
 
 3. Create a commit
 git commit -m "This is the description."
+
+- View the history
+git log
+git log --oneline
+
+==== Branching =====
+- List all of the branch that we have
+git branch -a
+
+- Create a new branch 
+git branch [branch-name]
+
+-Switch in to a branch 
+git switch [branch-name]
